@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ======HEADER====== */
+
+.header {
+    padding: 19px 0;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 55px;
+}
+
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 40px;
+    margin-left: 40px;
+}
+
+.header-list-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-link {
+    color: #4F5665;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-link-2 {
+    color: #0B132A;
+    margin-right: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header-btn {
+    padding: 13px 45px;
+    color: #F53855;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 50px;
+    border: none;
+    border: 1px solid #F53855;
+}
+
+/* ======MAIN====== */
+
+.hero {
+    margin-bottom: 100px;
+}
+
+.hero-box {
+    margin-bottom: 30px;
+}
+
+.hero-title {
+    width: 555px;
+    color: #0B132A;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    width: 555px;
+    color: #4F5665;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.hero-btn {
+    color: #FFF;
+    padding: 17px 75px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    border-radius: 10px;
+    border: none;
+    background: #F53838;
+}
